@@ -3,13 +3,18 @@ import Pages from './collections/pages';
 import Posts from './collections/posts';
 import Projects from './collections/projects';
 
+const clientId = process.env.PUBLIC_TINA_CLIENT_ID;
+const token = process.env.PUBLIC_TINA_TOKEN;
+const branch = process.env.PUBLIC_TINA_BRANCH;
+
+if (!clientId || !token || !branch) {
+    throw new Error('Missing required environment variables TINA_BRANCH, TINA_CLIENT_ID, or TINA_TOKEN');
+}
+
 export default defineConfig({
-    clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
-    branch:
-        process.env.NEXT_PUBLIC_TINA_BRANCH || // custom branch env override
-        process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF || // Vercel branch env
-        process.env.HEAD, // Netlify branch env
-    token: process.env.TINA_TOKEN,
+    clientId,
+    token,
+    branch,
 
     build: {
         outputFolder: 'admin',
