@@ -1,4 +1,6 @@
 import { defineConfig } from 'tinacms';
+import { client } from './__generated__/client';
+
 import Pages from './collections/pages';
 import Posts from './collections/posts';
 import Projects from './collections/projects';
@@ -12,6 +14,7 @@ if (!clientId || !token || !branch) {
 }
 
 export default defineConfig({
+    client,
     clientId,
     token,
     branch,
