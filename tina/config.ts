@@ -4,9 +4,9 @@ import Pages from './collections/pages';
 import Posts from './collections/posts';
 import Projects from './collections/projects';
 
-const clientId = process.env.PUBLIC_TINA_CLIENT_ID;
-const token = process.env.PUBLIC_TINA_TOKEN;
-const branch = process.env.PUBLIC_TINA_BRANCH;
+const clientId = process.env.TINA_CLIENT_ID;
+const token = process.env.TINA_TOKEN;
+const branch = process.env.TINA_BRANCH;
 
 if (!clientId || !token || !branch) {
     throw new Error('Missing required environment variables TINA_BRANCH, TINA_CLIENT_ID, or TINA_TOKEN');
