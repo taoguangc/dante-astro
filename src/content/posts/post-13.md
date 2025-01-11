@@ -15,7 +15,9 @@ excerpt: >-
 publishDate: 2024-01-03T00:00:00.000Z
 ---
 
-![Abstract snow](/uploads/post-13.jpg)![](/uploads/uploads/post-12.jpg)
+![Abstract snow](/uploads/post-13.jpg)
+
+![](/uploads/post-12.jpg)
 
 **Note:** This post was created using Chat GPT to demonstrate the features of the *[Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/)*.
 
@@ -53,4 +55,4 @@ Google's Web Vitals initiative introduced three core metrics – Largest Content
 
 ## Conclusion
 
-Prioritizing web performance metrics is essential for creating a positive user experience, improving search engine rankings, and achieving business goals. Regularly monitor and optimize these metrics to ensure your website not only meets but exceeds user expectations in an ever-competitive online environment. By implementing best practices and staying informed about evolving performance standards, you can future-proof your website and provide a seamless experience for your visitors.
+Prioritizing web performance metrics is essential for creating a positive user experience, improving search engine rankings, and achieving business goals. Regularly monitor and optimize these metrics to ensure your website not only meets but exceeds user expectations in an ever-competitive online environment. By implementing best practices and staying informed about evolving performance standards, you can future-proof your website and provide a seamless experience for your visitors.![](/uploads/post-12.jpg)
