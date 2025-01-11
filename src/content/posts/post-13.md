@@ -1,20 +1,23 @@
 ---
-title: 'A Guide to Web Performance Metrics'
-excerpt: Dive deep into web performance metrics, including tools and techniques for measuring and optimizing loading times. Discuss the significance of metrics like First Contentful Paint, Time to Interactive, and more.
-publishDate: 'Jan 03 2024'
 tags:
   - Web
   - Guide
 isFeatured: true
 seo:
   image:
-    src: '/post-13.jpg'
+    src: /post-13.jpg
     alt: Abstract snow
+title: A Guide to Web Performance Metrics
+excerpt: >-
+  Dive deep into web performance metrics, including tools and techniques for
+  measuring and optimizing loading times. Discuss the significance of metrics
+  like First Contentful Paint, Time to Interactive, and more.
+publishDate: 2024-01-03T00:00:00.000Z
 ---
 
-![Abstract snow](/post-13.jpg)
+![Abstract snow](/uploads/post-13.jpg)![](/uploads/uploads/post-12.jpg)
 
-**Note:** This post was created using Chat GPT to demonstrate the features of the _[Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/)_.
+**Note:** This post was created using Chat GPT to demonstrate the features of the *[Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/)*.
 
 In the ever-evolving landscape of the internet, user expectations for fast and responsive websites continue to rise. **Web performance is a critical factor** that directly impacts user experience, search engine rankings, and overall business success. To ensure your website meets these expectations, it's essential to understand and optimize key web performance metrics. In this guide, we'll explore some crucial metrics and offer insights on how to improve them.
 
