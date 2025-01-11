@@ -5,10 +5,10 @@ const Pages: Collection = {
     name: 'pages',
     path: 'src/content/pages',
     // format: 'mdx',
-    defaultItem: () => ({
-        title: '新页面',
-        body: 'Start writing here...'
-    }),
+    // defaultItem: () => ({
+    //     title: '新页面',
+    //     body: 'Start writing here...'
+    // }),
     fields: [
         {
             type: 'string',

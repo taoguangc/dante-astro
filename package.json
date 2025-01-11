@@ -5,7 +5,7 @@
     "scripts": {
         "dev": "tinacms dev -c \"astro dev\"",
         "start": "astro dev",
-        "build": "tinacms build && astro build",
+        "build": "tinacms build --local && astro build",
         "preview": "astro preview",
         "astro": "astro"
     },
@@ -27,5 +27,6 @@
         "@types/node": "^22.10.5",
         "prettier": "^3.4.2",
         "prettier-plugin-tailwindcss": "^0.6.9"
-    }
+    },
+    "packageManager": "pnpm@9.15.3"
 }

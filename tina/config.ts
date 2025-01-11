@@ -4,18 +4,14 @@ import Pages from './collections/pages';
 import Posts from './collections/posts';
 import Projects from './collections/projects';
 
+const branch = process.env.HEAD || process.env.TINA_BRANCH || 'main';
 const clientId = process.env.TINA_CLIENT_ID;
 const token = process.env.TINA_TOKEN;
-const branch = process.env.TINA_BRANCH;
-
-if (!clientId || !token || !branch) {
-    throw new Error('Missing required environment variables TINA_BRANCH, TINA_CLIENT_ID, or TINA_TOKEN');
-}
 
 export default defineConfig({
-    clientId,
-    token,
     branch,
+    clientId: clientId || '',
+    token: token || '',
 
     build: {
         outputFolder: 'admin',
@@ -31,4 +27,10 @@ export default defineConfig({
     schema: {
         collections: [Pages, Posts, Projects]
     }
+    // search: {
+    //     tina: {
+    //         indexerToken: process.env.TINA_TOKEN,
+    //         stopwordLanguages: ['eng']
+    //     }
+    // }
 });
